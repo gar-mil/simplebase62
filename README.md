@@ -1,7 +1,7 @@
 # simplebase62
 In 2014 I found a snippet of PHP code on the internet that handled base62 conversion in a very simple way. Unfortunately, it was undocumented and did not have any information about a license or an author.
 
-simplebase62 is a remake of the snippet into a PHP class that is fully commented and has meaningful variable names.
+simplebase62 is a remake of the snippet into a PHP class that performs similar mathematical steps, but is fully commented and has meaningful variable names.
 
 ## Requirements
 simplebase62 requires PHP's GNU Multiple Precision library: https://www.php.net/manual/en/book.gmp.php
