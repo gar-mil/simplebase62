@@ -6,7 +6,7 @@ class base62
 	// Decode base62
 	public static function decodebase62($inputstring)
 	{
-		$output;
+		$output = '';
 		$inputlength = strlen($inputstring);
 		
 		for ($i = 0; $i < $inputlength; $i += 11)
@@ -36,7 +36,7 @@ class base62
 	// Encode base62
 	public static function encodebase62($inputstring)
 	{
-		$output;
+		$output = '';
 		$inputlength = strlen($inputstring);
 		
 		for ($i = 0; $i < $inputlength; $i += 8)
